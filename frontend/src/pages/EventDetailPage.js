@@ -5,7 +5,7 @@ const EventDetailPage = () => {
   const params = useParams();
   return (
     <>
-      <h1>EventDetailPage</h1>
+      <h1>Event Detail</h1>
       <p>{params.eventId}</p>
     </>
   );
